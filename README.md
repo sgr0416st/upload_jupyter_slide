@@ -38,7 +38,7 @@ scroll = true //新しい状態
 ```
 変更がおすすめ　 <br>
 
-4. reveal.jsを自分のgithubページにforkして、適当な名前に変更(末尾は.github.io?　→　違うかも、、試してない)　 <br>
+4. reveal.jsを自分のgithubページにforkして、適当な名前に変更(しなくてもOK)　 <br>
 https://github.com/hakimel/reveal.js　
 にアクセスして、右上のforkボタンを押すと自分のリポジトリにコピーされる
 forkしたら、プロジェクト名を変更する(右らへんの歯車のタブから)
@@ -65,7 +65,8 @@ index.htmlを開いて、３で出力したhtmlの中身をコピー&ペース�
 git push origin gh-pages
 ```
 
-9. https://ユーザまたは組織名.github.io/リポジトリ名 でアクセス!!　<br>
+9. https://ユーザまたは組織名.github.io/リポジトリ名
+でアクセス!!　<br>
 
 #### More reading
 RISE install方法： "https://qiita.com/cvusk/items/d425751ba663dc8c6517"　<br>
