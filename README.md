@@ -68,6 +68,6 @@ git push origin gh-pages
 9. https://ユーザまたは組織名.github.io/リポジトリ名 でアクセス!!　<br>
 
 #### More reading
-RISE install方法：　"https://qiita.com/cvusk/items/d425751ba663dc8c6517"　<br>
+RISE install方法： "https://qiita.com/cvusk/items/d425751ba663dc8c6517"　<br>
 使い方: "https://www.procrasist.com/entry/5-jupyter-slide"　<br>
 web上にアップロード： https://www.procrasist.com/entry/5-jupyter-slide　<br>
