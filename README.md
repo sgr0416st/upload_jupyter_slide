@@ -1,4 +1,4 @@
-# Jupyter Notebook スライド化
+# Jupyter Notebook スライド化 & web上に公開法
 
 #### 手順
 
