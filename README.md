@@ -39,7 +39,8 @@ scroll = true //新しい状態
 変更がおすすめ　 <br>
 
 4. reveal.jsを自分のgithubページにforkして、適当な名前に変更(末尾は.github.io?　→　違うかも、、試してない)　 <br>
-https://github.com/hakimel/reveal.js　にアクセスして、右上のforkボタンを押すと自分のリポジトリにコピーされる
+https://github.com/hakimel/reveal.js　
+にアクセスして、右上のforkボタンを押すと自分のリポジトリにコピーされる
 forkしたら、プロジェクト名を変更する(右らへんの歯車のタブから)
 
 5.　gh-pagesブランチを削除　 <br>　
