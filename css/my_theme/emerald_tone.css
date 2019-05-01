@@ -249,7 +249,7 @@ table tr:nth-child(even){
     text-align:center;
 }
 
-.reveal .slides .container .target{
+ .reveal .slides .container .target{
     font-size: 100px;
     display:table-cell;
     vertical-align:middle;
