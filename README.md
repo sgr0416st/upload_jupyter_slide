@@ -43,29 +43,20 @@ https://github.com/hakimel/reveal.js　
 にアクセスして、右上のforkボタンを押すと自分のリポジトリにコピーされる
 forkしたら、プロジェクト名を変更する(右らへんの歯車のタブから)
 
-5.　gh-pagesブランチを削除　 <br>　
+5. master ブランチを GitHub Pages として公開設定する <br>　
+GitHubリポジトリの Settings → GitHub Pages → Source のところで、master branch を選択し、その後 Save ボタンを押す。
 
-```ターミナル
-git branch -rd origin/gh-pages
-git push origin --delete gh-pages
-```
 
-6. 自分で新しくgh-pagesブランチを作成　 <br>
-
-```ターミナル
-git checkout -b gh-pages
-```
-
-7. index.htmlというhtmlファイルを先ほど出力した自分のスライドに差し替える　<br>
+6. index.htmlというhtmlファイルを先ほど出力した自分のスライドに差し替える　<br>
 index.htmlを開いて、３で出力したhtmlの中身をコピー&ペースト　<br>
 
-8. 上記で作ったブランチにpush　<br>
+7. 上記で作ったブランチにpush　<br>
 
 ```ターミナル
-git push origin gh-pages
+git push origin master
 ```
 
-9. https://ユーザまたは組織名.github.io/リポジトリ名
+8. https://ユーザまたは組織名.github.io/リポジトリ名
 でアクセス!!　<br>
 
 #### More reading
