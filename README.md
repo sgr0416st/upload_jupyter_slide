@@ -45,7 +45,7 @@ forkしたら、プロジェクト名を変更する(右らへんの歯車のタ
 
 5. master ブランチを GitHub Pages として公開設定する <br>　
 GitHubリポジトリの Settings → GitHub Pages → Source のところで、master branch を選択し、その後 Save ボタンを押す。
-
+<img src="https://github.com/sgr0416st/upload_jupyter_slide/blob/master/img/pages_sample.png">
 
 6. index.htmlというhtmlファイルを先ほど出力した自分のスライドに差し替える　<br>
 index.htmlを開いて、３で出力したhtmlの中身をコピー&ペースト　<br>
