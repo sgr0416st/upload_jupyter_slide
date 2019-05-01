@@ -59,6 +59,7 @@ if( window.location.search.match( /print-pdf/gi ) ) {
 
 <!-- Get Font-awesome from cdn -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.css">
+<link rel="stylesheet" href="https://github.com/sgr0416st/upload_jupyter_slide/blob/master/css/my_theme/emerald_tone.css">
 
 <style type="text/css">
     /*!
@@ -8507,15 +8508,15 @@ label {
 }
 /* Flexible box model classes */
 /* Taken from Alex Russell http://infrequently.org/2009/08/css-3-progress/ */
-/* This file is a compatability layer.  It allows the usage of flexible box 
+/* This file is a compatability layer.  It allows the usage of flexible box
 model layouts accross multiple browsers, including older browsers.  The newest,
 universal implementation of the flexible box model is used when available (see
-`Modern browsers` comments below).  Browsers that are known to implement this 
+`Modern browsers` comments below).  Browsers that are known to implement this
 new spec completely include:
 
     Firefox 28.0+
     Chrome 29.0+
-    Internet Explorer 11+ 
+    Internet Explorer 11+
     Opera 17.0+
 
 Browsers not listed, including Safari, are supported via the styling under the
@@ -11289,7 +11290,7 @@ div#pager .ui-resizable-handle {
   background: #f7f7f7;
   border-top: 1px solid #cfcfcf;
   border-bottom: 1px solid #cfcfcf;
-  /* This injects handle bars (a short, wide = symbol) for 
+  /* This injects handle bars (a short, wide = symbol) for
         the resize handle. */
 }
 div#pager .ui-resizable-handle::after {
@@ -11732,7 +11733,7 @@ ul.typeahead-list > li > a {
 .highlight .il { color: #666666 } /* Literal.Number.Integer.Long */
     </style>
 <style type="text/css">
-    
+
 /* Temporary definitions which will become obsolete with Notebook release 5.0 */
 .ansi-black-fg { color: #3E424D; }
 .ansi-black-bg { background-color: #3E424D; }
@@ -13588,10 +13589,10 @@ frame
 <div class="prompt input_prompt">In&nbsp;[22]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-r"><pre><span></span>ksd.normal <span class="o">&lt;-</span> ks.test<span class="p">(</span>x<span class="o">=</span>df.normal<span class="o">$</span>x<span class="p">,</span> y<span class="o">=</span><span class="s">&quot;pnorm&quot;</span><span class="p">,</span> mean<span class="o">=</span><span class="kp">mean</span><span class="p">(</span>df.normal<span class="o">$</span>x<span class="p">),</span>sd<span class="o">=</span>sd<span class="p">(</span>df.normal<span class="o">$</span>x<span class="p">))</span> 
-ksd.uniform <span class="o">&lt;-</span>  ks.test<span class="p">(</span>x<span class="o">=</span>df.uniform<span class="o">$</span>x<span class="p">,</span> y<span class="o">=</span><span class="s">&quot;pnorm&quot;</span><span class="p">,</span> mean<span class="o">=</span><span class="kp">mean</span><span class="p">(</span>df.uniform<span class="o">$</span>x<span class="p">),</span>sd<span class="o">=</span>sd<span class="p">(</span>df.uniform<span class="o">$</span>x<span class="p">))</span> 
-ksd.gamma <span class="o">&lt;-</span>  ks.test<span class="p">(</span>x<span class="o">=</span>df.gamma<span class="o">$</span>x<span class="p">,</span> y<span class="o">=</span><span class="s">&quot;pnorm&quot;</span><span class="p">,</span> mean<span class="o">=</span><span class="kp">mean</span><span class="p">(</span>df.gamma<span class="o">$</span>x<span class="p">),</span>sd<span class="o">=</span>sd<span class="p">(</span>df.gamma<span class="o">$</span>x<span class="p">))</span> 
-ksd.beta<span class="o">&lt;-</span>  ks.test<span class="p">(</span>x<span class="o">=</span>df.beta<span class="o">$</span>x<span class="p">,</span> y<span class="o">=</span><span class="s">&quot;pnorm&quot;</span><span class="p">,</span> mean<span class="o">=</span><span class="kp">mean</span><span class="p">(</span>df.beta<span class="o">$</span>x<span class="p">),</span>sd<span class="o">=</span>sd<span class="p">(</span>df.beta<span class="o">$</span>x<span class="p">))</span> 
+<div class=" highlight hl-r"><pre><span></span>ksd.normal <span class="o">&lt;-</span> ks.test<span class="p">(</span>x<span class="o">=</span>df.normal<span class="o">$</span>x<span class="p">,</span> y<span class="o">=</span><span class="s">&quot;pnorm&quot;</span><span class="p">,</span> mean<span class="o">=</span><span class="kp">mean</span><span class="p">(</span>df.normal<span class="o">$</span>x<span class="p">),</span>sd<span class="o">=</span>sd<span class="p">(</span>df.normal<span class="o">$</span>x<span class="p">))</span>
+ksd.uniform <span class="o">&lt;-</span>  ks.test<span class="p">(</span>x<span class="o">=</span>df.uniform<span class="o">$</span>x<span class="p">,</span> y<span class="o">=</span><span class="s">&quot;pnorm&quot;</span><span class="p">,</span> mean<span class="o">=</span><span class="kp">mean</span><span class="p">(</span>df.uniform<span class="o">$</span>x<span class="p">),</span>sd<span class="o">=</span>sd<span class="p">(</span>df.uniform<span class="o">$</span>x<span class="p">))</span>
+ksd.gamma <span class="o">&lt;-</span>  ks.test<span class="p">(</span>x<span class="o">=</span>df.gamma<span class="o">$</span>x<span class="p">,</span> y<span class="o">=</span><span class="s">&quot;pnorm&quot;</span><span class="p">,</span> mean<span class="o">=</span><span class="kp">mean</span><span class="p">(</span>df.gamma<span class="o">$</span>x<span class="p">),</span>sd<span class="o">=</span>sd<span class="p">(</span>df.gamma<span class="o">$</span>x<span class="p">))</span>
+ksd.beta<span class="o">&lt;-</span>  ks.test<span class="p">(</span>x<span class="o">=</span>df.beta<span class="o">$</span>x<span class="p">,</span> y<span class="o">=</span><span class="s">&quot;pnorm&quot;</span><span class="p">,</span> mean<span class="o">=</span><span class="kp">mean</span><span class="p">(</span>df.beta<span class="o">$</span>x<span class="p">),</span>sd<span class="o">=</span>sd<span class="p">(</span>df.beta<span class="o">$</span>x<span class="p">))</span>
 
 p_list <span class="o">&lt;-</span> <span class="kp">round</span><span class="p">(</span><span class="kt">c</span><span class="p">(</span>ksd.normal<span class="o">$</span>p.value<span class="p">,</span> ksd.uniform<span class="o">$</span>p.value<span class="p">,</span> ksd.gamma<span class="o">$</span>p.value<span class="p">,</span> ksd.beta<span class="o">$</span>p.value<span class="p">),</span> <span class="m">4</span><span class="p">)</span>
 bool_list <span class="o">&lt;-</span> <span class="kt">c</span><span class="p">(</span>ksd.normal<span class="o">$</span>p.value <span class="o">&gt;</span> <span class="m">0.05</span><span class="p">,</span> ksd.uniform<span class="o">$</span>p.value <span class="o">&gt;</span> <span class="m">0.05</span><span class="p">,</span> ksd.gamma<span class="o">$</span>p.value <span class="o">&gt;</span> <span class="m">0.05</span><span class="p">,</span> ksd.beta<span class="o">$</span>p.value <span class="o">&gt;</span> <span class="m">0.05</span><span class="p">)</span>
