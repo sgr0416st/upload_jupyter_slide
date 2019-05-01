@@ -19,13 +19,13 @@
     --basic-font-size: 24pt; /*普通の文字サイズ*/
 }
 
-.rise-enabled .reveal
+.reveal
 {
     background-color: var(--base-color);
 }
 
 /* スライド全体のフォントの種類、サイズ */
-.rise-enabled .reveal .slides
+.reveal .slides
 {
     font-family: "ヒラギノ丸ゴ ProN","Hiragino Maru Gothic ProN";
     position: relative;
@@ -33,7 +33,7 @@
 }
 
 /*背景画像を選択する場合*/
-.rise-enabled .reveal:before {
+.reveal:before {
     display: block;
     width: 100%;
     height: 100%;
@@ -59,7 +59,7 @@ p {
 
 /* -webkit-any が使えるのはChromeだけ*/
 /*タイトルの設定*/
-.rise-enabled .reveal .slides :-webkit-any(h1)
+.reveal .slides :-webkit-any(h1)
 {
     padding: 0.5em 0 0.25em 0.5em;
     color: var(--main-color1);
@@ -70,7 +70,7 @@ p {
 }
 
 /* 大見出しの設定 */
-.rise-enabled .reveal .slides :-webkit-any(h2)
+.reveal .slides :-webkit-any(h2)
 {
     position: relative;
     padding: 0.9em 0.6em;
@@ -84,7 +84,7 @@ p {
     border-bottom-left-radius: 10px;
 }
 
-.rise-enabled .reveal .slides :-webkit-any(h2):after
+.reveal .slides :-webkit-any(h2):after
 {
     position: absolute;
     content: '';
@@ -95,7 +95,7 @@ p {
 }
 
 /* 見出しの設定 */
-.rise-enabled .reveal .slides :-webkit-any(h3) {
+.reveal .slides :-webkit-any(h3) {
     padding: 0.25em 0 0.25em 0.25em;
     color: var(--main-color1);
     background-color: var(--text-box-color);
@@ -105,7 +105,7 @@ p {
 }
 
 /* 小見出しの設定 */
-.rise-enabled .reveal .slides :-webkit-any(h4, h5, h6)
+.reveal .slides :-webkit-any(h4, h5, h6)
 {
     margin: 0em;
     padding: 0.5em 0 0.5em 0.5em;
@@ -116,8 +116,8 @@ p {
 }
 
 /* 普通の文字とリスト文字の設定 */
-.rise-enabled .reveal .slides :-webkit-any(p, li, u),
-.rise-enabled .reveal .slides div.output_subarea>pre
+.reveal .slides :-webkit-any(p, li, u),
+.reveal .slides div.output_subarea>pre
 {
     margin: 0.2em 0 ;
     background-color: var(--text-box-color);
@@ -125,20 +125,20 @@ p {
     line-height: 1.8em;
 }
 /* 普通の文字の設定 */
-.rise-enabled .reveal .slides :-webkit-any(p)
+.reveal .slides :-webkit-any(p)
 {
     padding: 0.5em 0 0.5em 0.5em;
     color: var(--text-color);
 }
 /* リスト文字の設定 */
-.rise-enabled .reveal .slides :-webkit-any(li)
+.reveal .slides :-webkit-any(li)
 {
     padding: 0.4em 4em 0.4em 0.5em;
     color: var(--text-color);
 }
 
 /*下線文字の設定*/
-.rise-enabled .reveal .slides :-webkit-any(u)
+.reveal .slides :-webkit-any(u)
 {
     padding: 0.5em 0 0.5em 0.5em;
     color: var(--accent-color);
@@ -146,7 +146,7 @@ p {
 }
 
 /*引用の設定*/
-.rise-enabled .reveal .slides :-webkit-any(blockquote)
+.reveal .slides :-webkit-any(blockquote)
 {
     padding: 0.25em 0 0.25em 0.25em;
     background-color: var(--quote-text-box-color);
@@ -155,7 +155,7 @@ p {
 }
 
 /*引用の設定*/
-.rise-enabled .reveal .slides blockquote :-webkit-any(p)
+.reveal .slides blockquote :-webkit-any(p)
 {
     color: var(--text-color);
     font-size: var(--basic-font-size);
@@ -163,7 +163,7 @@ p {
 }
 
 /*引用の設定(下線部)*/
-.rise-enabled .reveal .slides blockquote :-webkit-any(u)
+.reveal .slides blockquote :-webkit-any(u)
 {
     color: var(--accent-color);
     font-size: var(--basic-font-size);
@@ -171,7 +171,7 @@ p {
 }
 
 /*リンクの設定*/
-.rise-enabled .reveal .slides :-webkit-any(a)
+.reveal .slides :-webkit-any(a)
 {
     padding: 0.25em 0 0.25em 0.25em;
     color: var(--link-text-color);
@@ -185,7 +185,7 @@ table{
   height: 100%;
 }
 
-.rise-enabled .reveal .slides :-webkit-any(td,th)
+.reveal .slides :-webkit-any(td,th)
 {
     padding:10px;
     font-size: var(--basic-font-size);
@@ -206,33 +206,33 @@ table tr:nth-child(even){
 }
 
 /*In[]の文字の設定*/
-.rise-enabled .reveal .slides div.prompt.input_prompt
+.reveal .slides div.prompt.input_prompt
 {
     margin: 1px 0;
     color: var(--main-color2);
 }
 
 /*out[]の文字設定？？*/
-.rise-enabled .reveal .slides div.prompt.output_prompt
+.reveal .slides div.prompt.output_prompt
 {
     margin: 1px 0;
     color: var(--main-color3);
 }
 
 
-.rise-enabled .reveal .slides div.warn
+.reveal .slides div.warn
 {
     color: var(--accent-color);
 }
 
 
-.rise-enabled .reveal .slides div.output_subarea.output_html.rendered_html.output_result
+.reveal .slides div.output_subarea.output_html.rendered_html.output_result
 {
     color: white;
 }
 
 
-.rise-enabled .reveal .slides code
+.reveal .slides code
 {
     font-family: Ricty Diminished;
     margin: 1px 0;
@@ -242,14 +242,14 @@ table tr:nth-child(even){
 }
 
 
-.rise-enabled .reveal .slides .container{
+.reveal .slides .container{
     display:table;
     width:100%;
     height:300px;
     text-align:center;
 }
 
-.rise-enabled .reveal .slides .container .target{
+.reveal .slides .container .target{
     font-size: 100px;
     display:table-cell;
     vertical-align:middle;
