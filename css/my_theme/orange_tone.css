@@ -1,0 +1,257 @@
+/* スライド全体のフォントの種類、サイズ */
+.rise-enabled .reveal .slides
+{
+    font-family: "ヒラギノ丸ゴ ProN","Hiragino Maru Gothic ProN";
+    position: relative;
+    z-index: 1;
+}
+
+.rise-enabled .reveal .slides:before {
+    display: block;
+    width: 100%;
+    height: 100%;
+    content: " ";
+    position: absolute;
+    background: url("https://images.unsplash.com/3/doctype-hi-res.jpg?ixlib=rb-1.2.1&auto=format&fit=crop&w=1946&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-attachment: fixed;
+    opacity: 0.3;  /* 透過度を適宜指定してください */
+    z-index: -1;
+}
+
+.rise-enabled .reveal .slides .red{
+    /*color: #cf495f;*/ /*真っ赤*/
+    font-weight: bold;
+}
+
+.rise-enabled .reveal .slides div.output_subarea.output_html.renderd_html.output_result>pre
+{
+    /*color: #fcf1d3;*/ /*薄ベージュ*/
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 1.4em;
+}
+
+/* -webkit-any が使えるのはChromeだけ*/
+/*タイトルの設定*/
+.rise-enabled .reveal .slides :-webkit-any(h1)
+{
+    padding: 0.5em 0 0.25em 0.5em;/*上から時計回りの余白*/
+    color: #DA9406;/*オレンジ*/
+    background-color: rgba(255,255,255,0.8); /*白*/
+    border-bottom: solid 5px #DA9406;/*下線*/
+    font-size: 44pt;
+    line-height: 1.3em;
+}
+
+/* 大見出しの設定 */
+.rise-enabled .reveal .slides :-webkit-any(h2)
+{
+    position: relative;
+    padding: 0.9em 0.6em;
+    /*margin: 2em 0;*/
+    background-color: rgba(255,255,255,0.8); /*白*/
+    color: #DA9406; /*オレンジ*/
+    font-weight: bold;
+    font-size: 44pt;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.rise-enabled .reveal .slides :-webkit-any(h2):after
+{
+    position: absolute;
+    content: '';
+    top: 100%;
+    left: 30px;
+    border: 25px solid #DA9406;
+    border-top: 40px solid #DA9406;
+    width: 0;
+    height: 0;
+}
+
+/* 見出しの設定 */
+.rise-enabled .reveal .slides :-webkit-any(h3) {
+    padding: 0.25em 0 0.25em 0.25em;/*上から時計回りの余白*/
+    color: #DA9406;/*オレンジ*/
+    background-color: rgba(255,255,255,0.8); /*白*/
+    border-left: solid 5px ＃#FFE8A5;/*左線*/
+    font-size: 44pt;
+    line-height: 1.8em;
+}
+
+/* 小見出しの設定 */
+.rise-enabled .reveal .slides :-webkit-any(h4, h5, h6)
+{
+    margin: 0em;
+    color: #DA9406;/*オレンジ*/
+    font-size: 24pt;
+    line-height: 1.4em;
+    background-color: rgba(255,255,255,0.8); /*白*/
+    padding: 0.5em 0 0.5em 0.5em;/*上から時計回りの余白*/
+}
+
+/* 普通の文字の設定 */
+.rise-enabled .reveal .slides :-webkit-any(p),
+.rise-enabled .reveal .slides div.output_subarea>pre
+{
+    margin: 0.2em 0 ;
+    color: #555555; /*ちょい薄グレー*/
+    font-size: 24pt;
+    line-height: 1.8em;
+    background-color: rgba(255,255,255,0.8); /*白*/
+    padding: 0.5em 0 0.5em 0.5em;/*上から時計回りの余白*/
+}
+
+/* リスト文字の設定 */
+.rise-enabled .reveal .slides :-webkit-any(li)
+{
+    margin: 0.2em 0 ;
+    color: #555555; /*ちょい薄グレー*/
+    font-size: 24pt;
+    line-height: 1.4em;
+    background-color: rgba(255,255,255,0.8); /*白*/
+    padding: 0.4em 4em 0.4em 0.5em;/*上から時計回りの余白*/
+}
+
+/*下線文字の設定*/
+.rise-enabled .reveal .slides :-webkit-any(u)
+{
+    color: #04A86A; /*エメラルドグリーン*/
+    font-size: 24pt;
+    line-height: 1.4em;
+    background-color: rgba(255,255,255,0.8); /*白*/
+
+}
+
+/*引用の設定*/
+.rise-enabled .reveal .slides :-webkit-any(blockquote)
+{
+    padding: 0.25em 0 0.25em 0.25em;/*上から時計回りの余白*/
+    background-color: white; /*白*/
+    opacity: 0.7;
+    border-left: 8px solid #FFE8A5; /*薄黄*/
+}
+
+/*引用の設定*/
+.rise-enabled .reveal .slides blockquote :-webkit-any(p)
+{
+    color: #878787; /*薄グレー*/
+    font-size: 24pt;
+    line-height: 1.4em;
+}
+
+/*引用の設定(下線部)*/
+.rise-enabled .reveal .slides blockquote :-webkit-any(u)
+{
+    color: #ABE188;・/*黄緑*/
+    font-size: 24pt;
+    line-height: 1.4em;
+}
+
+/*リンクの設定*/
+.rise-enabled .reveal .slides a
+{
+    font-size: 16pt;
+    color: #B4B4B4; /*薄グレー*/
+    padding: 0.25em 0 0.25em 0.25em;/*上から時計回りの余白*/
+}
+
+
+/*背景の設定 -> もはやいらない？*/
+.rise-enabled .reveal
+{
+    /*background-color: white;*/
+    /*白*/
+    /* element-overrides */
+}
+
+
+table{
+  border-collapse:collapse;
+  margin:0 auto;
+  width: 75%;
+  height: 100%;
+}
+
+.rise-enabled .reveal .slides :-webkit-any(td,th)
+{
+    padding:10px;
+    font-size: 24pt;
+}
+
+th{
+    color: white; /*白*/
+    background: #DA9406; /*オレンジ*/
+}
+
+table tr:nth-child(odd){
+    background: white; /*白*/
+}
+
+table tr:nth-child(even){
+    background: #FFE599; /*薄々オレンジ*/
+}
+
+/*In[]の文字の設定*/
+.rise-enabled .reveal .slides div.prompt.input_prompt
+{
+    margin: 1px 0;
+    color: #04A86A; /*エメラルドグリーン*/
+}
+
+/*out[]の文字設定？？*/
+.rise-enabled .reveal .slides div.prompt.output_prompt
+{
+    margin: 1px 0;
+    color: #04A86A; /*エメラルドグリーン*/
+}
+
+
+.rise-enabled .reveal .slides div.warn
+{
+    color: #F2BC4F;
+    /*薄オレンジ*/
+}
+
+
+.rise-enabled .reveal .slides div.output_subarea.output_html.rendered_html.output_result
+{
+    color: white;
+}
+
+
+.rise-enabled .reveal .slides code
+{
+    font-family: Ricty Diminished;
+    margin: 1px 0;
+    background-color: brack;
+    color: white;
+    font-size: 60%;
+}
+
+
+.rise-enabled .reveal .slides .container{
+    /*color: #fcf1d3;*/ /*ベージュ*/
+    display:table;
+    width:100%;
+    height:300px;
+    /*background-color:#FFE8A5;*/ /*薄黄*/
+    text-align:center;
+}
+
+.rise-enabled .reveal .slides .container .target{
+    font-size: 100px;
+    display:table-cell;
+    vertical-align:middle;
+}
+
+
+
