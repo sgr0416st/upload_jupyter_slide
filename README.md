@@ -27,7 +27,7 @@ Notes：ノート扱い  <br>
 
 3. html化する  <br>
 ```ターミナル
-jupyter nbconvert "day5-jupyter-slide.ipynb" --to slides --reveal-prefix "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0"
+jupyter nbconvert "********.ipynb" --to slides --reveal-prefix "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0"
 ```
 出力されたhtmlファイルは、デフォルトのスライドデザインなので、jupyterの冒頭に書いたcssをコピーして、  <br>
 htmlのスライドが始まる直前の<style></style>の間にはめ込んでやる(はじめのスライドのタイトルなどで検索すると見つかりやすい)  <br>
